@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rrhh
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/recursos_humanos_db?createDatabaseIfNotExist=true
+    username: root
+    password: PICHOS3
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
